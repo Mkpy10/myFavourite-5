@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background: linear-gradient( #E1BEE7 0%, #90CAF9 100%);
+}
+
+
+p{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.Image{
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+}
+
+.Division{
+  width: 150px;
+  height: 5px;
+  background-color: black;
+  margin : 10px auto;
+}
+
+.Link{
+    margin-top: 0px;
+    display: inline;
+    top: 0px;
+    padding-left: 10px;
+}
+
+.Link:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#PictureOfMessi{
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+#PictureOfMessi:hover{
+    transform: scale(0.9);
+}
